@@ -1,0 +1,24 @@
+target 'Ordenes' do
+platform :ios, '13.0'
+
+use_frameworks!
+pod 'SDWebImage', '~>3.8'
+pod 'ReachabilitySwift'
+#pod 'IHProgressHUD'
+pod 'IHProgressHUD', :git => 'https://github.com/Swiftify-Corp/IHProgressHUD.git'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+pod 'Alamofire'
+pod 'FSPagerView'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+pod 'Firebase/Crashlytics'
+pod 'OneSignal', '>= 2.7.1', '< 3.0'
+pod 'IQKeyboardManagerSwift'
+pod 'GoogleAnalytics'
+pod 'MarqueeLabel/Swift'
+pod 'DropDown'
+pod 'OpalImagePicker', '~> 2.0.0'
+pod 'lottie-ios'
+end

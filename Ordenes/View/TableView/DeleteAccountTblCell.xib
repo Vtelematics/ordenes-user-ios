@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="reasonCell" rowHeight="50" id="mEl-wb-iuY" customClass="DeleteAccountTblCell" customModule="Talabat_clone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mEl-wb-iuY" id="VWq-9x-bae">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erR-i5-R6Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="4IO-mo-xCF">
+                                <rect key="frame" x="20" y="12" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="8gx-Oi-JQM"/>
+                                    <constraint firstAttribute="width" constant="25" id="VcX-9D-ga8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have a privacy concern" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cd9-GK-Jwo">
+                                <rect key="frame" x="55" y="10" width="341" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0c9-ix-wK6"/>
+                                    <constraint firstAttribute="width" constant="341" id="Je5-Pz-NpH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4IO-mo-xCF" firstAttribute="top" secondItem="erR-i5-R6Y" secondAttribute="top" constant="12" id="1D9-af-3B1"/>
+                            <constraint firstAttribute="width" constant="414" id="71f-Ua-BD2"/>
+                            <constraint firstItem="4IO-mo-xCF" firstAttribute="leading" secondItem="erR-i5-R6Y" secondAttribute="leading" constant="20" id="Kzu-wg-Xw0"/>
+                            <constraint firstAttribute="trailing" secondItem="cd9-GK-Jwo" secondAttribute="trailing" constant="18" id="ToA-Ii-2pm"/>
+                            <constraint firstItem="cd9-GK-Jwo" firstAttribute="top" secondItem="erR-i5-R6Y" secondAttribute="top" constant="10" id="fNL-0e-q6J"/>
+                            <constraint firstAttribute="height" constant="50" id="hHn-M3-vaa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="erR-i5-R6Y" secondAttribute="bottom" id="1Zc-PD-eYG"/>
+                    <constraint firstAttribute="trailing" secondItem="erR-i5-R6Y" secondAttribute="trailing" id="HBr-4m-vhk"/>
+                    <constraint firstItem="erR-i5-R6Y" firstAttribute="top" secondItem="VWq-9x-bae" secondAttribute="top" id="jrf-qw-JSA"/>
+                    <constraint firstItem="erR-i5-R6Y" firstAttribute="leading" secondItem="VWq-9x-bae" secondAttribute="leading" id="vAU-9G-jTR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="myImgRadioReason" destination="4IO-mo-xCF" id="ShC-ga-KdC"/>
+                <outlet property="myLblReason" destination="cd9-GK-Jwo" id="ev3-lM-dES"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="-171"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_radio_uncheck" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

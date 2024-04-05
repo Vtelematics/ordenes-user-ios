@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Restaurant Closed"; ObjectID = "0bn-Sk-YFW"; */
+"0bn-Sk-YFW.text" = "Restaurant Closed";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "H0t-o0-qSP"; */
+"H0t-o0-qSP.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "wSY-Jc-7bk"; */
+"wSY-Jc-7bk.normalTitle" = "Continue";

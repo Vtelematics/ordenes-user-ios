@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="menuListCell" id="8Ck-4b-r2n" customClass="MenuTblCell" customModule="Ordenes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Ck-4b-r2n" id="idZ-bi-h9O">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vmo-c6-QSX">
+                        <rect key="frame" x="12" y="13" width="23" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="MK3-O5-7Tk"/>
+                            <constraint firstAttribute="width" constant="23" id="QK9-ol-17k"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zge-3E-Klw">
+                        <rect key="frame" x="50" y="14" width="345" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="FHi-Zw-Eu0"/>
+                            <constraint firstAttribute="width" constant="345" id="lj8-L4-d2p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gS0-ry-08N">
+                        <rect key="frame" x="8" y="49" width="398" height="1"/>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="IFn-Dh-CVB"/>
+                            <constraint firstAttribute="width" constant="398" id="qwt-3Z-We4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gS0-ry-08N" secondAttribute="trailing" constant="8" id="Jww-gK-w9b"/>
+                    <constraint firstItem="zge-3E-Klw" firstAttribute="leading" secondItem="Vmo-c6-QSX" secondAttribute="trailing" constant="15" id="Uwr-tr-Fab"/>
+                    <constraint firstItem="zge-3E-Klw" firstAttribute="top" secondItem="idZ-bi-h9O" secondAttribute="top" constant="14" id="abe-Tb-cJ4"/>
+                    <constraint firstItem="Vmo-c6-QSX" firstAttribute="top" secondItem="idZ-bi-h9O" secondAttribute="top" constant="13" id="at9-MF-eOw"/>
+                    <constraint firstItem="Vmo-c6-QSX" firstAttribute="leading" secondItem="idZ-bi-h9O" secondAttribute="leading" constant="12" id="b9O-xz-eky"/>
+                    <constraint firstAttribute="trailing" secondItem="zge-3E-Klw" secondAttribute="trailing" constant="19" id="c05-t6-O8v"/>
+                    <constraint firstAttribute="bottom" secondItem="gS0-ry-08N" secondAttribute="bottom" id="oRM-ib-Q9S"/>
+                    <constraint firstItem="gS0-ry-08N" firstAttribute="leading" secondItem="idZ-bi-h9O" secondAttribute="leading" constant="8" id="z8K-eb-85v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="myImgMenu" destination="Vmo-c6-QSX" id="kQ8-ih-exP"/>
+                <outlet property="myLblLine" destination="gS0-ry-08N" id="kqs-ev-I3y"/>
+                <outlet property="myLblMenuTitle" destination="zge-3E-Klw" id="SwG-Eu-2oJ"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="68.303571428571431"/>
+        </tableViewCell>
+    </objects>
+</document>

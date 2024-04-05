@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="loginCell" rowHeight="180" id="QJY-Ia-17L" customClass="LocationTblCell" customModule="Ordenes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QJY-Ia-17L" id="YKs-r9-WJJ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_login_banner" translatesAutoresizingMaskIntoConstraints="NO" id="gpS-sQ-sFf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="414" id="lyJ-KG-rc7"/>
+                            <constraint firstAttribute="height" constant="180" id="vxU-fD-Hx2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey there!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yY-72-Mvb">
+                        <rect key="frame" x="14" y="18" width="258" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="258" id="bJu-wP-DdT"/>
+                            <constraint firstAttribute="height" constant="21" id="oHu-p5-4mb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or create an account for a faster ordering experience" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JH-ne-pOX">
+                        <rect key="frame" x="16" y="47" width="241" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="241" id="ED7-kp-qBb"/>
+                            <constraint firstAttribute="height" constant="54" id="n9I-KF-I7t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwh-9M-84v">
+                        <rect key="frame" x="20" y="126" width="102" height="31"/>
+                        <color key="backgroundColor" name="clr_orange"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="102" id="VCO-ri-Rli"/>
+                            <constraint firstAttribute="height" constant="31" id="j1P-eH-LKh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Log in">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" name="clr_light_red"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gpS-sQ-sFf" secondAttribute="trailing" id="BnI-XJ-iUo"/>
+                    <constraint firstItem="2yY-72-Mvb" firstAttribute="leading" secondItem="YKs-r9-WJJ" secondAttribute="leading" constant="14" id="DZB-0N-bgL"/>
+                    <constraint firstAttribute="bottom" secondItem="gpS-sQ-sFf" secondAttribute="bottom" id="Fet-HB-Owx"/>
+                    <constraint firstItem="2yY-72-Mvb" firstAttribute="top" secondItem="YKs-r9-WJJ" secondAttribute="top" constant="18" id="H1R-gj-8DG"/>
+                    <constraint firstItem="7JH-ne-pOX" firstAttribute="top" secondItem="2yY-72-Mvb" secondAttribute="bottom" constant="8" symbolic="YES" id="Hd7-Z5-m0T"/>
+                    <constraint firstAttribute="bottom" secondItem="Xwh-9M-84v" secondAttribute="bottom" constant="23" id="IDX-fX-Oay"/>
+                    <constraint firstAttribute="trailing" secondItem="7JH-ne-pOX" secondAttribute="trailing" constant="157" id="Ihr-jK-e6i"/>
+                    <constraint firstItem="7JH-ne-pOX" firstAttribute="leading" secondItem="YKs-r9-WJJ" secondAttribute="leading" constant="16" id="S8l-a1-dE3"/>
+                    <constraint firstItem="gpS-sQ-sFf" firstAttribute="top" secondItem="YKs-r9-WJJ" secondAttribute="top" id="X6Z-6n-gK5"/>
+                    <constraint firstItem="Xwh-9M-84v" firstAttribute="leading" secondItem="YKs-r9-WJJ" secondAttribute="leading" constant="20" symbolic="YES" id="Xle-zs-gzO"/>
+                    <constraint firstItem="gpS-sQ-sFf" firstAttribute="leading" secondItem="YKs-r9-WJJ" secondAttribute="leading" id="Z1P-Rp-y6o"/>
+                    <constraint firstAttribute="trailing" secondItem="2yY-72-Mvb" secondAttribute="trailing" constant="142" id="cZG-kK-Gcu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnLogin" destination="Xwh-9M-84v" id="SW2-rn-KYb"/>
+                <outlet property="imgBanner" destination="gpS-sQ-sFf" id="h13-2S-9Zb"/>
+                <outlet property="lblAddress1" destination="2yY-72-Mvb" id="Lva-sW-gJP"/>
+                <outlet property="lblAddress2" destination="7JH-ne-pOX" id="unT-Cf-PjZ"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="131.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_login_banner" width="500" height="280"/>
+        <namedColor name="clr_light_red">
+            <color red="0.96862745098039216" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="clr_orange">
+            <color red="1" green="0.35294117647058826" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

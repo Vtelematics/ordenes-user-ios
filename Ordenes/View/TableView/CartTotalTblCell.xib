@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cartTotalCell" rowHeight="30" id="KGk-i7-Jjw" customClass="CartTotalTblCell" customModule="Ordenes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IcW-8S-O4b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJH-b0-FOF">
+                                <rect key="frame" x="15" y="5" width="225" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="kt7-o8-6qR"/>
+                                    <constraint firstAttribute="height" constant="20" id="tg8-F1-RL6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETy-yN-lLY">
+                                <rect key="frame" x="241" y="5" width="45" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="cSj-pe-oX7"/>
+                                    <constraint firstAttribute="width" constant="45" id="uca-n2-AZR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpX-lL-Boc">
+                                <rect key="frame" x="286" y="5" width="116" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="0xn-wz-BUU"/>
+                                    <constraint firstAttribute="height" constant="20" id="q5h-Hv-c25"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wJH-b0-FOF" firstAttribute="leading" secondItem="IcW-8S-O4b" secondAttribute="leading" constant="15" id="Dbb-NG-L2S"/>
+                            <constraint firstItem="ETy-yN-lLY" firstAttribute="leading" secondItem="wJH-b0-FOF" secondAttribute="trailing" constant="1" id="O9V-83-LaO"/>
+                            <constraint firstItem="wJH-b0-FOF" firstAttribute="top" secondItem="IcW-8S-O4b" secondAttribute="top" constant="5" id="Sos-ql-Ihd"/>
+                            <constraint firstAttribute="height" constant="30" id="UGJ-hO-f1f"/>
+                            <constraint firstItem="FpX-lL-Boc" firstAttribute="top" secondItem="IcW-8S-O4b" secondAttribute="top" constant="5" id="ZTV-86-gSK"/>
+                            <constraint firstAttribute="trailing" secondItem="FpX-lL-Boc" secondAttribute="trailing" constant="12" id="bwG-F1-91c"/>
+                            <constraint firstAttribute="width" constant="414" id="h7p-KC-Lio"/>
+                            <constraint firstItem="ETy-yN-lLY" firstAttribute="top" secondItem="IcW-8S-O4b" secondAttribute="top" constant="5" id="jI2-nt-Jj0"/>
+                            <constraint firstItem="FpX-lL-Boc" firstAttribute="leading" secondItem="ETy-yN-lLY" secondAttribute="trailing" id="n8w-Ko-3Bv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="IcW-8S-O4b" secondAttribute="bottom" id="EVa-OB-pw9"/>
+                    <constraint firstAttribute="trailing" secondItem="IcW-8S-O4b" secondAttribute="trailing" id="Tgz-hu-bTl"/>
+                    <constraint firstItem="IcW-8S-O4b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dIy-Wu-iSO"/>
+                    <constraint firstItem="IcW-8S-O4b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uT3-mo-9Vd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="myLblCurrency" destination="ETy-yN-lLY" id="emn-Dd-PML"/>
+                <outlet property="myLblPriceType" destination="wJH-b0-FOF" id="M5a-34-3VE"/>
+                <outlet property="myLblTotalPrice" destination="FpX-lL-Boc" id="tuH-JM-eIX"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="38.169642857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

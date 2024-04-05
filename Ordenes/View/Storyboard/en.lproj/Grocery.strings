@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "0HI-gX-fyW"; */
+"0HI-gX-fyW.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "1GK-Kc-CXo"; */
+"1GK-Kc-CXo.text" = "0";
+
+/* Class = "UILabel"; text = "Add to basket"; ObjectID = "1y9-Km-u66"; */
+"1y9-Km-u66.text" = "Add to basket";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "1zp-vp-Gw6"; */
+"1zp-vp-Gw6.text" = "-";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "4Ri-K7-cI0"; */
+"4Ri-K7-cI0.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "4Wv-nN-0kz"; */
+"4Wv-nN-0kz.text" = "Delivery";
+
+/* Class = "UILabel"; text = "Grocery not available in this location"; ObjectID = "5gO-Yu-Ej2"; */
+"5gO-Yu-Ej2.text" = "Grocery not available in this location";
+
+/* Class = "UITextField"; placeholder = "Search items"; ObjectID = "6dH-rL-pH7"; */
+"6dH-rL-pH7.placeholder" = "Search items";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "AEa-2K-jjI"; */
+"AEa-2K-jjI.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "B7g-ao-iGr"; */
+"B7g-ao-iGr.text" = "+";
+
+/* Class = "UILabel"; text = "Categories"; ObjectID = "DsV-bg-5RU"; */
+"DsV-bg-5RU.text" = "Categories";
+
+/* Class = "UIButton"; normalTitle = "Grocery"; ObjectID = "DvU-VY-z7k"; */
+"DvU-VY-z7k.normalTitle" = "Grocery";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "GHQ-qg-wUA"; */
+"GHQ-qg-wUA.text" = "0";
+
+/* Class = "UILabel"; text = "Shop by category"; ObjectID = "H43-sr-kft"; */
+"H43-sr-kft.text" = "Shop by category";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "HRq-7M-A3W"; */
+"HRq-7M-A3W.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Min order"; ObjectID = "JGp-X6-JNm"; */
+"JGp-X6-JNm.text" = "Min order";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "JTq-A6-ZhJ"; */
+"JTq-A6-ZhJ.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "JjC-fw-MN8"; */
+"JjC-fw-MN8.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "PIk-3I-o3Z"; */
+"PIk-3I-o3Z.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Delivery time"; ObjectID = "WUy-gb-iZU"; */
+"WUy-gb-iZU.text" = "Delivery time";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "XQe-Lp-oQo"; */
+"XQe-Lp-oQo.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "ajn-4t-BVB"; */
+"ajn-4t-BVB.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "aq0-qR-1Ge"; */
+"aq0-qR-1Ge.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "bIP-MV-VKO"; */
+"bIP-MV-VKO.text" = "0";
+
+/* Class = "UILabel"; text = "Products not available in this store"; ObjectID = "biT-kY-EoG"; */
+"biT-kY-EoG.text" = "Products not available in this store";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "cJD-AN-SiA"; */
+"cJD-AN-SiA.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Items"; ObjectID = "cfw-bY-UZY"; */
+"cfw-bY-UZY.normalTitle" = "Items";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "cvD-p4-UcQ"; */
+"cvD-p4-UcQ.normalTitle" = " ";
+
+/* Class = "UITextField"; placeholder = "Search Grocery"; ObjectID = "dfx-1F-Yg5"; */
+"dfx-1F-Yg5.placeholder" = "Search Grocery";
+
+/* Class = "UILabel"; text = "View Basket"; ObjectID = "gaA-g1-cxi"; */
+"gaA-g1-cxi.text" = "View Basket";
+
+/* Class = "UITextField"; placeholder = "Search for grocery and items"; ObjectID = "gsP-xQ-iVL"; */
+"gsP-xQ-iVL.placeholder" = "Search for grocery and items";
+
+/* Class = "UILabel"; text = "Delivering to"; ObjectID = "h8v-4g-Ip6"; */
+"h8v-4g-Ip6.text" = "Delivering to";
+
+/* Class = "UILabel"; text = "Pickup"; ObjectID = "i2h-rA-Cha"; */
+"i2h-rA-Cha.text" = "Pickup";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "jWN-Kc-kpG"; */
+"jWN-Kc-kpG.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "lUf-xz-TN7"; */
+"lUf-xz-TN7.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Delivering to"; ObjectID = "oCr-xn-JXy"; */
+"oCr-xn-JXy.text" = "Delivering to";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oIH-Xb-Nai"; */
+"oIH-Xb-Nai.text" = "Title";
+
+/* Class = "UILabel"; text = "View Basket"; ObjectID = "qQB-0X-TmY"; */
+"qQB-0X-TmY.text" = "View Basket";
+
+/* Class = "UITextField"; placeholder = "Search items"; ObjectID = "qd8-O4-tkN"; */
+"qd8-O4-tkN.placeholder" = "Search items";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "qrm-ZD-72L"; */
+"qrm-ZD-72L.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "View Basket"; ObjectID = "rI4-Qx-Pix"; */
+"rI4-Qx-Pix.text" = "View Basket";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "rsA-L8-LAe"; */
+"rsA-L8-LAe.text" = "Delivery";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "y51-gG-WX5"; */
+"y51-gG-WX5.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "zqz-J3-5lu"; */
+"zqz-J3-5lu.normalTitle" = " ";

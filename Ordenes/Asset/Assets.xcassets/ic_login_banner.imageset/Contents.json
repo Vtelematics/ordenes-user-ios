@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "500_280_11.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "filename" : "ic_login_banner2.png",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatusView" customModule="Ordenes" customModuleProvider="target">
+            <connections>
+                <outlet property="myBtnCancel" destination="H0t-o0-qSP" id="rXP-Mj-sLz"/>
+                <outlet property="myBtnContinue" destination="wSY-Jc-7bk" id="KHh-ms-7zv"/>
+                <outlet property="myLblHeader" destination="0bn-Sk-YFW" id="BHc-6r-HZi"/>
+                <outlet property="myLblMsg" destination="c3E-ep-6oi" id="sJY-MJ-aPo"/>
+                <outlet property="myViewContent" destination="iN0-l3-epB" id="ECD-T1-bbc"/>
+                <outlet property="myViewContent2" destination="hjv-eu-TIq" id="GRI-3a-kWK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OwU-pT-liz">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjv-eu-TIq">
+                    <rect key="frame" x="30" y="327.5" width="353" height="251"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Closed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-Sk-YFW">
+                            <rect key="frame" x="15" y="19" width="323" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="323" id="coL-I4-wIy"/>
+                                <constraint firstAttribute="height" constant="23" id="wth-RA-T8o"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="21"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3E-ep-6oi">
+                            <rect key="frame" x="15" y="50" width="323" height="142"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="323" id="5g1-s7-n7A"/>
+                                <constraint firstAttribute="height" constant="142" id="Tny-O7-2g6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0t-o0-qSP">
+                            <rect key="frame" x="139" y="199" width="100" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="XQE-ba-cju"/>
+                                <constraint firstAttribute="height" constant="40" id="fc6-Qa-7Av"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" name="clr_orange"/>
+                            </state>
+                            <connections>
+                                <action selector="clickCancel:" destination="-1" eventType="touchUpInside" id="QcV-Op-GnV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSY-Jc-7bk">
+                            <rect key="frame" x="243" y="198" width="100" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="81y-23-m2B"/>
+                                <constraint firstAttribute="height" constant="42" id="9xX-qp-uJJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" name="clr_orange"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="wSY-Jc-7bk" firstAttribute="top" secondItem="c3E-ep-6oi" secondAttribute="bottom" constant="6" id="4bh-OD-4A0"/>
+                        <constraint firstAttribute="trailing" secondItem="0bn-Sk-YFW" secondAttribute="trailing" constant="15" id="A6H-tp-T8X"/>
+                        <constraint firstAttribute="height" constant="251" id="Ipw-2t-1Uo"/>
+                        <constraint firstItem="0bn-Sk-YFW" firstAttribute="top" secondItem="hjv-eu-TIq" secondAttribute="top" constant="19" id="QpB-KS-heb"/>
+                        <constraint firstItem="c3E-ep-6oi" firstAttribute="top" secondItem="0bn-Sk-YFW" secondAttribute="bottom" constant="8" symbolic="YES" id="cYO-s9-ij0"/>
+                        <constraint firstAttribute="trailing" secondItem="wSY-Jc-7bk" secondAttribute="trailing" constant="10" id="dlJ-sA-3R7"/>
+                        <constraint firstAttribute="width" constant="353" id="fnP-wu-no7"/>
+                        <constraint firstAttribute="trailing" secondItem="c3E-ep-6oi" secondAttribute="trailing" constant="15" id="h6a-Mf-dgm"/>
+                        <constraint firstItem="c3E-ep-6oi" firstAttribute="leading" secondItem="hjv-eu-TIq" secondAttribute="leading" constant="15" id="mgU-Qq-pYq"/>
+                        <constraint firstItem="H0t-o0-qSP" firstAttribute="top" secondItem="c3E-ep-6oi" secondAttribute="bottom" constant="8" symbolic="YES" id="oAt-tD-aCb"/>
+                        <constraint firstItem="0bn-Sk-YFW" firstAttribute="leading" secondItem="hjv-eu-TIq" secondAttribute="leading" constant="15" id="txH-9d-wjG"/>
+                        <constraint firstItem="wSY-Jc-7bk" firstAttribute="leading" secondItem="H0t-o0-qSP" secondAttribute="trailing" constant="4" id="viz-Jl-gJy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hjv-eu-TIq" secondAttribute="trailing" constant="31" id="6Zl-Fm-N0Z"/>
+                <constraint firstItem="hjv-eu-TIq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="NoV-5G-wf9"/>
+                <constraint firstItem="hjv-eu-TIq" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="uLg-1Z-kl7"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="54.910714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="clr_orange">
+            <color red="1" green="0.35294117647058826" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

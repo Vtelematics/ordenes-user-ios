@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "online-card-payment.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
